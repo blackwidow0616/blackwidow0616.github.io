@@ -26,8 +26,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 # domain: ivyo.art
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ivyo.art" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/images/logo_500x300.png"
 twitter_username: ivyo_
 github_username:  blackwidow0616
+
+# Site Author
+author:
+  name: "Ivy Oeltjenbruns"
+  avatar: "/images/twitter_400x400.jpeg"
+  bio: "I am an **artsy** person"
 
 # Build settings
 #theme: minimal-mistakes-jekyll
