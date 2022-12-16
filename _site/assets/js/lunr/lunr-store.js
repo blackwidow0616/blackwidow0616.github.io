@@ -1,9 +1,9 @@
 var store = [{
-        "title": "Welcome to Jekyll!",
-        "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["jekyll","update"],
+        "title": "Peacock Diamond Painting",
+        "excerpt":"I got a diamond painting kit from Amazon to complete and gift to family.   I completed this Peacock Diamond Painting in 9 total hours. I then put it in a  frame and mailed it off to my sister for her birthday.      ","categories": [],
         "tags": [],
-        "url": "/jekyll/update/2022/12/14/welcome-to-jekyll.html",
-        "teaser": null
+        "url": "/portfolio/peacock-diamond-painting/",
+        "teaser": "/images/peacock-thumbnail.png"
       },{
         "title": "What is Art?",
         "excerpt":"Art can be defined by many things. Painting, drawing, sculpting. But art is more than  that too. Writing, dancing, cooking. If you can create it, it is art.  ","categories": ["thoughts"],

@@ -36,6 +36,12 @@ author:
   avatar: "/images/twitter_400x400.jpeg"
   bio: "I am an **artsy** person"
 
+# Outputting
+# permalink: /:about/:collections/:posts/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/New_York
+
 # Build settings
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -62,3 +68,58 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Reading Files
+include: 
+   - _pages
+
+# Collections
+collections:
+  portfolio:
+     output: true
+     permalink: /:collection/:path/
+
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      date_format: "%B %-d, %Y"
+      read_time: true
+      comments: false # true
+      share: true
+      related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
